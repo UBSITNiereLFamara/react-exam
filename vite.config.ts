@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
 plugins: [react()],
-base: '/club-dashboard-lab/', // replace with your repository name
+base: 'react-exam', 
 })
