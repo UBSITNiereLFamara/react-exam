@@ -1,8 +1,8 @@
 import "./App.css";
 
-import ActivitiesList from "./MemberProps"; 
+import MemberProps from "./MemberProps"; 
 
-type MembersPropsType = {
+type MembersProps= {
     name: string;
     course: string;
     status: string;
@@ -18,7 +18,7 @@ const MemberCard = ({
     email,
     phone,
     activities,
-}: MembersPropsType) => {
+}: MembersProps) => {
     return (
         <div className="member-card">
             <h2>{name}</h2>
@@ -30,7 +30,7 @@ const MemberCard = ({
             <hr/>
             <h3>Activities:</h3>
 
-            <ActivitiesList activities={activities} />
+            <MemberProps items={activities} />
             <hr/>
         </div>
     );
