@@ -1,0 +1,52 @@
+h2 {
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 6px;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+p {
+  margin-left: 15px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+ul {
+  margin-left: 35px;
+  margin-top: 8px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+h1:nth-of-type(7),
+h1:nth-of-type(7) {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+
+h2, p {
+  font-weight: bold;
+  color: #1e8449;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
